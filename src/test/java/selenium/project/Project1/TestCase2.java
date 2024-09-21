@@ -18,7 +18,7 @@ public class TestCase2 extends Launch_Quit
 		al.enter_email();
 		al.continue_();
 		al.enterPassword();
-		al.signin(driver);
+		al.signin_valid(driver);
 	}
 
 }

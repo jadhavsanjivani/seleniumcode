@@ -8,16 +8,17 @@ import org.testng.annotations.Test;
 public class TestCase3 extends Launch_Quit
 {
 	@Test
-	public void valid_login() throws InterruptedException, EncryptedDocumentException, IOException
+	public void invalid_login() throws InterruptedException, EncryptedDocumentException, IOException
 	{
 		Amazon_HomePage ah = new Amazon_HomePage (driver);
 		ah.account_list(driver);
 		ah.signin(driver);
 		Amazon_LoginPage al = new Amazon_LoginPage( driver);
-		al.enter_email();
+		al.enter_invalid_email();
 		al.continue_();
-		al.enterPassword();
-		al.signin(driver);
+		//al.ente_invalid_Password();
+		//al.signin_invalid(driver);
+		al.incorrect_password_msg();
 	}
 
 }

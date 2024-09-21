@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-20T10:24:20 IST" name="Default suite" finished-at="2024-09-20T10:24:41 IST" duration-ms="21174">
+  <suite started-at="2024-09-21T18:13:39 IST" name="Suite" finished-at="2024-09-21T18:14:26 IST" duration-ms="47010">
     <groups>
     </groups>
-    <test started-at="2024-09-20T10:24:20 IST" name="Default test" finished-at="2024-09-20T10:24:41 IST" duration-ms="21174">
-      <class name="selenium.project.Project1.TestCase1">
-        <test-method is-config="true" signature="launch()[pri:0, instance:selenium.project.Project1.TestCase1@618425b5]" started-at="2024-09-20T10:24:20 IST" name="launch" finished-at="2024-09-20T10:24:38 IST" duration-ms="17415" status="PASS">
+    <test started-at="2024-09-21T18:13:39 IST" name="Test" finished-at="2024-09-21T18:14:26 IST" duration-ms="47010">
+      <class name="selenium.project.Project1.TestCase2">
+        <test-method is-config="true" signature="launch()[pri:0, instance:selenium.project.Project1.TestCase2@47d9a273]" started-at="2024-09-21T18:14:02 IST" name="launch" finished-at="2024-09-21T18:14:07 IST" duration-ms="4282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="registration()[pri:0, instance:selenium.project.Project1.TestCase1@618425b5]" started-at="2024-09-20T10:24:38 IST" name="registration" finished-at="2024-09-20T10:24:41 IST" duration-ms="3214" status="PASS">
+        <test-method signature="valid_login()[pri:0, instance:selenium.project.Project1.TestCase2@47d9a273]" started-at="2024-09-21T18:14:07 IST" name="valid_login" finished-at="2024-09-21T18:14:15 IST" duration-ms="8126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:selenium.project.Project1.TestCase2@47d9a273]" started-at="2024-09-21T18:14:15 IST" name="quit" finished-at="2024-09-21T18:14:15 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- selenium.project.Project1.TestCase2 -->
+      <class name="selenium.project.Project1.TestCase1">
+        <test-method is-config="true" signature="launch()[pri:0, instance:selenium.project.Project1.TestCase1@2805d709]" started-at="2024-09-21T18:13:39 IST" name="launch" finished-at="2024-09-21T18:13:54 IST" duration-ms="14760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="registration()[pri:0, instance:selenium.project.Project1.TestCase1@2805d709]" started-at="2024-09-21T18:13:54 IST" name="registration" finished-at="2024-09-21T18:14:02 IST" duration-ms="8025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:selenium.project.Project1.TestCase1@618425b5]" started-at="2024-09-20T10:24:41 IST" name="quit" finished-at="2024-09-20T10:24:41 IST" duration-ms="495" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:selenium.project.Project1.TestCase1@2805d709]" started-at="2024-09-21T18:14:02 IST" name="quit" finished-at="2024-09-21T18:14:02 IST" duration-ms="547" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- selenium.project.Project1.TestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="selenium.project.Project1.TestCase3">
+        <test-method is-config="true" signature="launch()[pri:0, instance:selenium.project.Project1.TestCase3@4b8ee4de]" started-at="2024-09-21T18:14:15 IST" name="launch" finished-at="2024-09-21T18:14:22 IST" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="invalid_login()[pri:0, instance:selenium.project.Project1.TestCase3@4b8ee4de]" started-at="2024-09-21T18:14:22 IST" name="invalid_login" finished-at="2024-09-21T18:14:25 IST" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:selenium.project.Project1.TestCase3@4b8ee4de]" started-at="2024-09-21T18:14:25 IST" name="quit" finished-at="2024-09-21T18:14:26 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- selenium.project.Project1.TestCase3 -->
+      <class name="selenium.project.Project1.Test1">
+        <test-method signature="test1()[pri:0, instance:selenium.project.Project1.Test1@543588e6]" started-at="2024-09-21T18:13:39 IST" name="test1" finished-at="2024-09-21T18:13:39 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:selenium.project.Project1.Test1@543588e6]" started-at="2024-09-21T18:13:39 IST" name="test2" finished-at="2024-09-21T18:13:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- selenium.project.Project1.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

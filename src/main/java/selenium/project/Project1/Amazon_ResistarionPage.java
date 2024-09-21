@@ -41,7 +41,11 @@ public class Amazon_ResistarionPage
 	}
 	public void verify_button(WebDriver driver)
 	{
+		
 		verify_mob_num.click();
+		WebDriverWait w1 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		w1.until(ExpectedConditions.titleIs("Authentication required"));
+		System.out.println(driver.getTitle());
 		Assert.assertEquals(driver.getTitle(), "Authentication required", "Registration failed");
 		
 	}
